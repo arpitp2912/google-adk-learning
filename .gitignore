@@ -1,0 +1,52 @@
+# Python environment
+adk/
+venv/
+.env
+*.env
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# macOS
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# Test results
+.pytest_cache/
+coverage.xml
+htmlcov/
+
+# Local config
+*.local
+
+# Sensitive files
+.env*
+credentials.json
+**/credentials.json
+
+# Google Cloud
+*.json
+
+# Ignore Python virtualenvs by pattern
+.env/
+env/
+ENV/
